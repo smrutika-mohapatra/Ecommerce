@@ -1,0 +1,21 @@
+#categoriesFilters h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 29.76px;
+}
+
+#categoriesFilters ul{
+  margin-bottom: 0 !important;
+}
+
+#categoriesFilters li{
+  margin: 8px 0 !important;
+}
+
+#categoriesFilters input[type="radio"]{
+  accent-color: red;
+  font-size: 25px;
+}
+#categoriesFilters label{
+  font-size:15px;
+}

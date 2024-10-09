@@ -1,0 +1,35 @@
+.productsCarousel{
+  margin-top: 150px;
+  background: #FFF4F3;
+}
+.productsCarousel {
+  position: relative;
+}
+
+.owl-carousel{
+
+}
+
+.owl-carousel .item {
+  position: relative;
+  text-align: left;
+ 
+}
+.owl-carousel .owl-stage {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+
+}
+
+/* media queries */
+/* for small devices */
+@media(max-width:600px){
+  .productsCarousel{
+    margin-top: 260px;
+    background: #FFF4F3;
+  }
+
+  .productsCarousel p{
+    font-size: 0.8rem;
+  }
+}

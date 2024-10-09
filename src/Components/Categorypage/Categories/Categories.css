@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+#categories{
+  font-family: "Libre Baskerville", serif;
+}
+
+#categories h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.64px;
+  text-align: left;
+}

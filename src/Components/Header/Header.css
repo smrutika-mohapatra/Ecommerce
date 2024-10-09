@@ -1,0 +1,50 @@
+header .navbar-toggler{
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+header form{
+  position:relative
+}
+header form button{
+  position: absolute;
+  right: 0;
+}
+header i{
+  font-size: 1.1rem;
+}
+
+header .notificationArea,header .cartArea{
+  position: relative;
+}
+
+header .notificationCounter,header .cartCounter{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #FF0000;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+/* media queries */
+/* for small devices */
+@media(max-width:600px){
+  header .navbar-toggler{
+    font-size: 1rem !important;
+  }
+
+  header form input{
+    display: none;
+  }
+
+  header form button{
+    position: static;
+    font-size: 1.25rem !important;
+  }
+
+  header form i{
+    font-size: 1.25rem !important;
+    padding-top: 7px;
+  }
+}

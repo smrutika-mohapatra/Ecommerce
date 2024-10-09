@@ -1,0 +1,84 @@
+
+#container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#ComboSection{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(#D6D1CB,#D6D1CB,#213F36);
+  border-radius: 30px;
+}
+#comboCard{
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+#overplay{
+  position: absolute;
+  width: 81%;
+  height: 40%;
+  background-color:  #2a4b41b5;
+  top: 0;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+#image{
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  /* margin-right: 30px; */
+}
+#content{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: -150px;
+  /* width: 600px; */
+  padding: 0 180px;
+}
+
+#content p{
+  font-size: 16px;
+}
+#button{
+  padding: 7px 30px;
+  border-radius: 70px;
+  margin-left: 70%;
+}
+#base{
+  display: flex;
+  justify-content: start;
+  width: 120%;
+}
+.basepage{
+  background-color:#D6D1CB;
+  width: 100%;
+}
+#imageSection{
+  width: 100%;
+}
+
+#images{
+  height: 280px;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+#images:hover{
+  transform: scale(1.05);
+}

@@ -1,0 +1,44 @@
+#productCard .card-body h2 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #272727;
+}
+
+#productCard .card-body .brandName {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #272727;
+}
+
+#productCard .card-body .rating {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #848484;
+}
+
+#productCard .card-body .discountedPrice {
+  font-weight: 700;
+  font-size: 17px;
+  color: #272727;
+}
+
+#productCard .card-body .originalPrice {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #848484;
+}
+
+#productCard .card-body .discount {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.32px;
+  color: #0A8200;
+}
+
+#productCard .card-body i {
+  font-size: 11px;
+}

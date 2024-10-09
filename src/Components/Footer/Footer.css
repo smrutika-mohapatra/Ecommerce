@@ -1,0 +1,28 @@
+/* Font for footer logo text */
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+footer {
+  /* background: linear-gradient(rgb(142,88,79),rgb(142,88,79))url('../../image/footer-background.jpg'); */
+  background-image: linear-gradient(
+      rgba(135, 78, 69, 0.9),
+      rgba(142, 88, 79, 0.93)
+    ),
+    url("../../image/footer-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  position: relative;
+}
+
+.footer-background h1 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 133.22px;
+  text-align: left;
+}
+
+footer,
+footer a {
+  color: #fff;
+}

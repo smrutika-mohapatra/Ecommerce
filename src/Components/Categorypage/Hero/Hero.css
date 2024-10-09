@@ -1,0 +1,27 @@
+#productCategory{
+  border-top: 10px solid;
+  border-image: url('../../../image/Line-2.png') 30;
+}
+
+#productCategory .heroBackground{
+  background: #C6D9F0;
+}
+
+#productCategory .heroSocialcontent{
+  background-color: #fff;
+  position: static;
+}
+
+#productCategory .heroBackground h2{
+  font-family: Abhaya Libre ExtraBold;
+font-size: 40px;
+font-weight: 800;
+line-height: 55.5px;
+text-align: center;
+color:#1E1E1E;
+}
+
+
+#productCategory .heroBackground .heroContent{
+  border: 1px solid #000000;
+}
